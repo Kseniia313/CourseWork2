@@ -11,7 +11,6 @@ public class MathQuestionService implements QuestionService {
     private Set<Question> questions = new HashSet<>();
     private final Random rnd = new Random();
 
-
     @Override
 
     public Question add(String question, String answer) {
