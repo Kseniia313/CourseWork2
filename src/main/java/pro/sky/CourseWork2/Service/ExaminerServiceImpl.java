@@ -12,7 +12,6 @@ import java.util.*;
 public class ExaminerServiceImpl implements ExaminerService {
     private final Random rnd = new Random();
     private final QuestionService questionService;
-
     public ExaminerServiceImpl(@Qualifier("javaQuestionService") QuestionService questionService) {
         this.questionService = questionService;
     }
